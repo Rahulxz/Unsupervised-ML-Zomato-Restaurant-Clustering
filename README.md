@@ -54,7 +54,7 @@ Conducted hyperparameter tuning to determine the optimal number of clusters by e
 
 7. Final Clustering:
 
-Based on the Calinski-Harabasz plot and considering interpretability, selected an optimal number of clusters (initially 3, with discussion around 5 based on the metric).
+Based on the Calinski-Harabasz plot and considering interpretability, selected an optimal number of clusters (initially 3, with discussion around 4 based on the metric).
 Applied the K-Prototypes algorithm with the selected optimal number of clusters to the features_df to obtain the final cluster assignments for each restaurant, storing these labels in the merged_df.
 
 
